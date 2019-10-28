@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "C:\\Users\\wildenhaip\\.virtualenvs\\portfolio-app-OvT66IeI\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\wildenhaip\\.virtualenvs\\portfolio-app-OvT66IeI\\Scripts\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
 }
