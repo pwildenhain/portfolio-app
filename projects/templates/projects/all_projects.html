@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,9 +10,10 @@
     <body>
         <h1>Hey there</h1>
         <p>This is my first Django app!</p>
-        {{ projects }}
         {% for project in projects %}
-            <p>{{ project.title }}</p>
+            <h2>{{ project.title }}</h2>
+            <img src="{% static project.image %}" alt="Screenshot">
+            <p>{{ project.description }}</p>
         {% endfor %}
     </body>
 </html>
