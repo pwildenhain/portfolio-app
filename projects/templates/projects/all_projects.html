@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <title>Page Title</title>
@@ -7,5 +8,9 @@
     <body>
         <h1>Hey there</h1>
         <p>This is my first Django app!</p>
+        {{ projects }}
+        {% for project in projects %}
+            <p>{{ project.title }}</p>
+        {% endfor %}
     </body>
 </html>
